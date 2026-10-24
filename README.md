@@ -8,6 +8,10 @@
 2. Open Godot, click Import, and select `project.godot`.
 3. Press F5.
 
+## Controls
+
+A/D or arrows to move, left mouse to attack, right mouse to block, Space to dodge.
+
 ## Layout
 
 - `scenes/` – Godot scenes

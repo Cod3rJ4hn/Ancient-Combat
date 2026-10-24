@@ -4,6 +4,7 @@ config_version=5
 [application]
 
 config/name="Ancient Combat"
+run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 
 [autoload]
@@ -15,6 +16,12 @@ GameFeel="*res://scripts/game_feel.gd"
 window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
+
+[layer_names]
+
+2d_physics/layer_1="player"
+2d_physics/layer_2="enemy"
+2d_physics/layer_3="world"
 
 [rendering]
 
