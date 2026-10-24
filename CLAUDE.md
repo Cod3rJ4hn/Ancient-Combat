@@ -19,6 +19,7 @@
 
 - Scope: one weapon and one enemy first. Get the hit feeling great (hit-stop, screen shake, blood particles, enemy stagger) before adding any more weapons or enemies. New weapons and enemies are variations on that loop.
 - Stay 2D. No 3D.
+- Ultra realistic. No jumping: movement is grounded (walk, run, dodge, block).
 - Placeholder art is fine. Use free packs (itch.io) and don't let art block combat work.
 - Use `GameFeel` for hit-stop and shake rather than duplicating that logic.
 - Keep scripts small and readable. The owner is a beginner with Godot.
@@ -37,6 +38,6 @@
 
 ## Next
 
-1. Player: move, jump, one attack
+1. Player: move, one attack (no jump)
 2. One enemy that takes hits and staggers
 3. Hit feel: hit-stop, shake, blood particles
